@@ -104,6 +104,9 @@ typings/
 # dotenv environment variables file
 .env
 
+# misc ignores
+package-lock.json
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
