@@ -1,7 +1,10 @@
 # Can of Books
 
 **Author**: Anthony Hill and Michael Brunette
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)<br>
+[Trello Board](https://trello.com/b/llPzUhEa/michael-and-anthony-can-of-books)<br>
+[Netlify Link](https://superlative-caramel-a66d1c.netlify.app/)<br>
+[Github Organization](https://github.com/Mike-and-Anthony)
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
@@ -15,7 +18,9 @@
 ## Change Log
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example: -->
 
-04-25-2020 5:30pm - Application now has a fully-functional login button modal. 
+04-25-2020 5:30 pm - Application now has a fully-functional login button modal. 
+
+04-25-2020 7:00 pm - Team agremment and collaboration added as well as trello, netlify and github link for proof of progress
 
 ## Estimates
 Name of feature: Login Form
