@@ -1,5 +1,3 @@
-
-   
 import { Component } from 'react'
 import LoginForm from './LoginForm'
 import Modal from 'react-bootstrap/Modal'

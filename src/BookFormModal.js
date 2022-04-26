@@ -3,15 +3,30 @@ import { Form, Container, Button } from 'react-bootstrap';
 
 
 class BookFormModal extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      title:'',
+      description:'',
+      email:'',
+      status:'',
+    }
+  }
+
+handleTitle=(e) => {
+  this.setState({title: e.target.value})
+}
+
 
   handleBookShelf = (e) => {
     e.preventDefault();
     let newBook = {
-      title: e.target.title.value,
+      title: this.state.title,
       description: e.target.description.value,
       email: e.target.email.value,
       status: e.target.status.checked
     }
+    console.log(newBook)
     this.props.addBook(newBook);
     this.props.onHide();
   }
@@ -22,7 +37,7 @@ class BookFormModal extends React.Component {
         <Form onSubmit={this.handleBookShelf}>
           <Form.Group controlId="title">
             <Form.Label>Title</Form.Label>
-            <Form.Control type="text" />
+            <Form.Control  onChange={this.handleTitle} type="text" />
           </Form.Group>
           <Form.Group controlId="description">
             <Form.Label>Description</Form.Label>

@@ -84,7 +84,7 @@ class BestBooks extends React.Component {
 
     return (
       <>
-        <h2>Michael's and Anthony's Book Emporium</h2>
+        <h2>My Essential Lifelong Learning &amp; Formation Shelf</h2>
 
         {this.state.books.length ? (
           <Carousel >
