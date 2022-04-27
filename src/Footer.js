@@ -6,7 +6,7 @@ class Footer extends React.Component {
   render() {
     return (
       <Navbar className="foot-nav" collapseOnSelect expand="lg">
-        <Navbar.Brand className="foot-brand">Code Fellows</Navbar.Brand>
+        <Navbar.Brand className="foot-brand">Code Fellows Seattle-301d84</Navbar.Brand>
       </Navbar>
     )
   }
