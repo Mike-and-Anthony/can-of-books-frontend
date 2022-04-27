@@ -1,0 +1,11 @@
+.foot-nav {
+  background: linear-gradient(#3c0749, #f8f6f7);
+  padding-top: 30px;
+}
+
+.foot-brand {
+color: black;
+font-size: 30px;
+font-weight: bolder;
+justify-content: center;
+}

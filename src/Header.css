@@ -1,7 +1,29 @@
-a{
-  color:#fff;
+.nav-link{
+  color:black;
+  border: 2px solid #fafafa;
+  border-radius: 10px;
+  font-weight: bold;
+  height: 45px;
+  background-color: #940b22;
+  padding: 10px;
+  margin: 10px;
 }
 
 a:hover{
-  color:darkgrey;
+  color:rgb(17, 8, 77);
+}
+
+.nav-brand {
+  color: black;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.nav-bar {
+  background: linear-gradient(#7d0cc4, #eb0909);
+  border-bottom: 3px double #2c0223;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+body {
+  background: linear-gradient(#5f0413, #130341);
 }
