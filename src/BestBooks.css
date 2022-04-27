@@ -58,7 +58,7 @@
 
 
 .addBookButton:active{
-  color: #000;
+  color: rgb(129, 10, 10);
 }
 
 .addBookButton:active:after{
